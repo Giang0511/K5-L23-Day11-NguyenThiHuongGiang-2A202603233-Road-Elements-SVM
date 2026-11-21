@@ -34,7 +34,6 @@ Cách đặt tag ảnh trên bản CVAT này: | Mỗi tag (camera, timeofday, we
 Lưu ý: A05, A09, A14 là ảnh mà lint báo QC1-02 nhưng thực tế không có vạch; theo `SUBMISSION.md`, cần coach xác nhận và ghi mã ảnh vào phiếu QC 1.
 
 ## 4. Phiếu QC 1 nhận được
-## 4. Phiếu QC 1 nhận được
 Bạn kiểm lô của tôi: Nguyễn Tấn Dũng  Quyết định nhận được: Rework (áp dụng cho 8 ảnh bổ sung A13–A16 và B09–B12, theo phiếu ngày 21/11/2026)  
 | Mã lỗi | Số lỗi | Đồng ý? | Đã sửa? |
 | --- | ---: | --- | --- |
@@ -49,11 +48,19 @@ Bạn kiểm lô của tôi: Nguyễn Tấn Dũng  Quyết định nhận đư�
 Số "job" là số shape bạn đếm trong CVAT (thanh bên phải khi mở ảnh); số "file" là số tôi đếm trong XML (không tính tag).
 
 ## 6. Ảnh chụp màn hình
-[CẦN LÀM — chụp trên máy bạn]
-1. Tab Labels của project.  
-2. Một ảnh camera trước đã gán đủ (làn, vùng lái, đèn/biển).
-3. Một ảnh fisheye đã gán, phóng to đoạn polyline cong.
-4. Một đoạn XML có `<polyline label="lane">`.
+## 6. Ảnh chụp màn hình
+
+### 6.1. Tab Labels của project
+![Project Labels](../screenshots/01_project_labels.png)
+
+### 6.2. Ảnh camera trước đã gán nhãn
+![Camera Front](../screenshots/02_camera_front_labeled.png)
+
+### 6.3. Ảnh fisheye – Polyline cong
+![Fisheye Polyline](../screenshots/03_fisheye_polyline.png)
+
+### 6.4. XML có polyline label lane
+![XML Polyline](../screenshots/04_xml_polyline.png)
 
 ## 7. Tự đánh giá [NHÁP — sửa lại theo trải nghiệm của bạn]
 Lỗi bạn mắc nhiều nhất hôm nay (theo mã QC1-xx), và cách tránh ở Ngày 20:  
