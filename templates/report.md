@@ -60,7 +60,13 @@ Số "job" là số shape bạn đếm trong CVAT (thanh bên phải khi mở �
 ![Fisheye Polyline](../screenshots/03_fisheye_polyline.png)
 
 ### 6.4. XML có polyline label lane
-![XML Polyline](../screenshots/04_xml_polyline.png)
+
+  <polyline label="lane" source="manual" occluded="0" points="657.88,679.20;510.67,577.96;477.38,554.32;453.00,536.40;433.80,523.40" z_order="0">
+    <attribute name="position">R1</attribute>
+    <attribute name="style">dashed</attribute>
+    <attribute name="color">white</attribute>
+    <attribute name="kind">single</attribute>
+  </polyline>
 
 ## 7. Tự đánh giá [NHÁP — sửa lại theo trải nghiệm của bạn]
 Lỗi bạn mắc nhiều nhất hôm nay (theo mã QC1-xx), và cách tránh ở Ngày 20:  
