@@ -43,8 +43,8 @@ Bạn kiểm lô của tôi: Nguyễn Tấn Dũng  Quyết định nhận đư�
 ## 5. Kiểm file export
 | File | Mở lại được? | Số shape ảnh 1 (job / file) | Số shape ảnh 2 (job / file) | Tag camera có trong XML? |
 | --- | --- | --- | --- | --- |
-| giang-front.zip | Có (annotations.xml, version 1.1) | A01: [CẦN ĐIỀN] / 8 | A02: [CẦN ĐIỀN] / 7 | Có, `front` ở cả 12 ảnh |
-| giang-fisheye.zip | Có (annotations.xml, version 1.1) | B01: [CẦN ĐIỀN] / 7 | B02: [CẦN ĐIỀN] / 10 | Có, FV → fisheye_front, RV → fisheye_rear, MVL → fisheye_left, MVR → fisheye_right |
+| giang-front.zip | Có (annotations.xml, version 1.1) | A01: 8 / 8 | A02: 7 / 7 | Có, `front` ở cả 12 ảnh |
+| giang-fisheye.zip | Có (annotations.xml, version 1.1) | B01: 7 / 7 | B02: 10 / 10 | Có, FV → fisheye_front, RV → fisheye_rear, MVL → fisheye_left, MVR → fisheye_right |
 
 Số "job" là số shape bạn đếm trong CVAT (thanh bên phải khi mở ảnh); số "file" là số tôi đếm trong XML (không tính tag).
 
