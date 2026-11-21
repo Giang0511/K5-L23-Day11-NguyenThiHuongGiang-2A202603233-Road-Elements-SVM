@@ -48,7 +48,6 @@ Bạn kiểm lô của tôi: Nguyễn Tấn Dũng  Quyết định nhận đư�
 Số "job" là số shape bạn đếm trong CVAT (thanh bên phải khi mở ảnh); số "file" là số tôi đếm trong XML (không tính tag).
 
 ## 6. Ảnh chụp màn hình
-## 6. Ảnh chụp màn hình
 
 ### 6.1. Tab Labels của project
 ![Project Labels](../screenshots/01_project_labels.png)
